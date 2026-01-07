@@ -8,3 +8,4 @@ torch
 Pillow
 matplotlib
 gunicorn
+Flask-Login
