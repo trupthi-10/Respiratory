@@ -1,4 +1,4 @@
-# Core Flask
+# Flask core
 flask
 gunicorn
 
@@ -7,21 +7,20 @@ Flask-Login
 Flask-SQLAlchemy
 Flask-WTF
 email-validator
-
-# Database
 SQLAlchemy
 
-# ML & Data
-numpy
+# ML & numerical (PINNED versions)
+numpy==1.26.4
+scipy
 pandas
 scikit-learn
-scipy
+scikit-image
 joblib
 
-# Deep Learning (CPU safe)
-tensorflow
-torch --index-url https://download.pytorch.org/whl/cpu
+# Deep learning (CPU only)
+tensorflow==2.15.0
 keras
+torch --index-url https://download.pytorch.org/whl/cpu
 
 # Image processing
 opencv-python-headless
