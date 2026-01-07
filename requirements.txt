@@ -17,10 +17,12 @@ scikit-learn
 scikit-image
 joblib
 
-# Deep learning (CPU only)
+# Deep learning (CPU only – STABLE)
 tensorflow==2.15.0
 keras
+
 torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
 
 # Image processing
 opencv-python-headless
