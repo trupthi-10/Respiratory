@@ -1,11 +1,33 @@
+# Core Flask
 flask
+gunicorn
+
+# Flask extensions
+Flask-Login
+Flask-SQLAlchemy
+Flask-WTF
+email-validator
+
+# Database
+SQLAlchemy
+
+# ML & Data
 numpy
 pandas
 scikit-learn
-opencv-python-headless
+scipy
+joblib
+
+# Deep Learning (CPU safe)
 tensorflow
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
+keras
+
+# Image processing
+opencv-python-headless
 Pillow
 matplotlib
-gunicorn
-Flask-Login
+
+# Utilities
+requests
+python-dateutil
